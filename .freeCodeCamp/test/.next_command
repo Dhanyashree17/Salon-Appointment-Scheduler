@@ -35,3 +35,13 @@ chmod +x salon.sh
 ./salon.sh
 echo "Welcome to the Salon!"
 ./salon.sh
+__vsc_prompt_cmd_original
+pg_dump -U freecodecamp -d salon > salon.sql
+git init
+git remote add origin https://github.com/Dhanyashree17/Salon-Appointment-Scheduler.git
+git remote set-url origin https://github.com/Dhanyashree17/Salon-Appointment-Scheduler.git
+git add .
+git push -u origin main
+git remote add origin https://github.com/Dhanyashree17/Salon-Appointment-Scheduler.git
+git remote set-url origin https://github.com/Dhanyashree17/Salon-Appointment-Scheduler.git
+git add .
